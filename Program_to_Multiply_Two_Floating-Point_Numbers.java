@@ -6,7 +6,6 @@ public class Pro
         Scanner sc = new Scanner(System.in);
         float a = sc.nextFloat();
         float b = sc.nextFloat();
-        float c = a*b;
-        System.out.printf("%.2f",c);
+        System.out.printf("%.2f",a*b);
     }
 }
